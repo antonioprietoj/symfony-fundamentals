@@ -6,8 +6,10 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "knplabs/knp-markdown-bundle": "^1.9",
+        "nyholm/psr7": "^1.4",
         "predis/predis": "^1.1",
         "sensio/framework-extra-bundle": "^5.5",
+        "sentry/sentry-symfony": "^4.0",
         "symfony/asset": "5.0.*",
         "symfony/console": "5.0.*",
         "symfony/debug-bundle": "5.0.*",
@@ -68,7 +70,7 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "5.0.*"
         }
     }
